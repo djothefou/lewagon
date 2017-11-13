@@ -1,15 +1,8 @@
----
-title: Le Wagon - Middleman
----
+<h1>We are <%= Date.today.strftime('%A') %>.</h1>
 
-<div id="home">
-  <div class="home-content">
-    <%= image_tag "logo.png", width: "200" %>
-    <p>
-      Middleman is now running!
-    </p>
-    <p class="about">
-      <%= link_to "More about this template", "about.html" %>
-    </p>
-  </div>
-</div>
+Liste des villes:
+<ul>
+  <% %w(rio paris barcelona).each do |city| %>
+    <li><%= city %></li>
+  <% end %>
+</ul>

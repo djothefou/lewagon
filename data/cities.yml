@@ -1,0 +1,10 @@
+- name: paris
+  places: 80
+- name: rio
+  places: 55
+- name: lyon
+  places: 22
+- name: barcelona
+  places: 65
+- name: milan
+  places: 54

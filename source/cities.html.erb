@@ -1,0 +1,9 @@
+<h1>Where can you find us?</h1>
+<ul class="list-inline">
+  <% data.cities.each do |city| %>
+    <li>
+      <img src="https://kitt.lewagon.com/placeholder/cities/<%= city.name %>" class="img-rounded" height="100px" >
+      <p><%= city.name.capitalize %>(<%= city.places %>)</p>
+    </li>
+  <% end %>
+</ul>
